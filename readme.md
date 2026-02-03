@@ -1,45 +1,111 @@
-<!--
-Dark Blog Home.
-Replace the links under "Posts".
--->
-
 <div align="center">
 
-# Your Blog
+# VictorHugo-dev
 
-Short. Direct. Useful.
+Welcome to my digital space
 
-<br>
+---
 
-## Posts
+## Latest Posts
 
-<br>
+### [Understanding Linux File Permissions](posts/linux-permissions.md)
+*A practical guide to ownership and access control*
 
-<a href="posts/2026-02-03-first-post.md">2026-02-03. First post</a>
+### [The Geography of Ancient Trade Routes](posts/ancient-trade-routes.md)
+*How terrain shaped commerce across continents*
 
-<br><br>
+### [Modern Geopolitical Tensions Explained](posts/geopolitical-tensions.md)
+*Breaking down current global conflicts*
 
-<a href="posts/2026-01-20-linux-notes.md">2026-01-20. Linux notes</a>
+### [Docker Best Practices for Production](posts/docker-production.md)
+*Deploy containers without the headaches*
 
-<br><br>
+### [The Fall of Constantinople](posts/fall-constantinople.md)
+*How 1453 changed world history*
 
-<a href="posts/2025-12-10-geopolitics-brief.md">2025-12-10. Geopolitics brief</a>
+### [Mastering Git Rebase](posts/git-rebase.md)
+*Clean commit history starts here*
 
-<br><br>
+### [Border Disputes Through History](posts/border-disputes.md)
+*Why lines on maps cause wars*
 
-<a href="posts/2025-11-01-maps-and-borders.md">2025-11-01. Maps and borders</a>
-
-<br><br>
-
-</div>
+### [Linux Performance Tuning](posts/linux-performance.md)
+*Make your system faster today*
 
 ---
 
 ## About
 
-Write one sentence. Say who you are. Say what you publish.
+Developer. Historian. Geographer. Linux enthusiast.
 
-## Subscribe
+I write about code, conflicts, and continents.
 
-- RSS: rss.xml
-- Email: add your link
+[GitHub](https://github.com/VictorHugo-dev) | [Contact](mailto:contact@example.com)
+
+</div>
+
+<style>
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #58a6ff;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: #79c0ff;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #21262d;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+h3 a {
+  color: #58a6ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+h3 a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
+
+p {
+  color: #8b949e;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #21262d;
+  margin: 2rem 0;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
